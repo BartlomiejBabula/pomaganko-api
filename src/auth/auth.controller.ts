@@ -16,7 +16,7 @@ import {
 } from 'class-validator';
 import { LocalAuthGuard } from './local-auth.guard';
 import { RefreshTokenGuard } from './refreshToken.guard';
-import { CreateUserDto } from 'src/users/users.controller';
+import { CreateUserDto } from 'src/users/dto/createUser';
 import { UsersService } from 'src/users/users.service';
 
 export class LoginUserDto {
